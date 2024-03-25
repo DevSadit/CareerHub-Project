@@ -4,11 +4,13 @@ import Navbar from "../Navbar/Navbar";
 
 const Root = () => {
     return (
+      <div>
+        <Navbar></Navbar>
         <div>
-            <Navbar></Navbar>
-            <Outlet></Outlet>
-            <Footer></Footer>
+          <Outlet></Outlet>
         </div>
+        <Footer></Footer>
+      </div>
     );
 };
 
